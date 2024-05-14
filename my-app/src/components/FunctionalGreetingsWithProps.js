@@ -6,3 +6,4 @@ const FunctionalGreetingWithProps = (props) => {
 };
 
 export default FunctionalGreetingWithProps;
+

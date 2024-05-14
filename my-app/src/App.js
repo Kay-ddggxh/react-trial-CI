@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import FunctionalGreetingWithProps from "./components/FunctionalGreetingsWithProps";
+import EventsClass from "./components/EventsClass";
+import EventsFunctional from "./components/EventsFunctional";
+import EventBinding from "./components/EventBinding";
 
 function App() {
 	return (
 		<div className="App">
-			<FunctionalGreetingWithProps greeting="Nice to meet you!" name="Kay" age="33"/>
+			<EventBinding />
 		</div>
 	);
 }
