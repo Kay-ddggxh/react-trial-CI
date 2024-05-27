@@ -5,12 +5,12 @@ import ConditionalRenderingFunctional from "./components/ConditionalRenderingFun
 import NestingComponents from "./components/NestingComponents";
 import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 import RenderingLists from "./components/RenderingLists";
+import LifeCyclesCDM from "./components/LifeCyclesCDM";
 
 function App() {
 	return (
 		<div className="App">
-			<MethodsAsPropsParent />
-			<RenderingLists />
+			<LifeCyclesCDM />
 		</div>
 	);
 }
