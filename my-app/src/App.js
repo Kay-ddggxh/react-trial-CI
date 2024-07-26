@@ -9,11 +9,13 @@ import LifeCyclesCDM from "./components/LifeCyclesCDM";
 import LifeCyclesCDU from "./components/LifeCyclesCDU";
 import LifeCyclesCWU from "./components/LifeCyclesCWU";
 import ControlledForms from "./components/ControlledForms";
+import UncontrolledForms from "./components/UncontrolledForms";
+import SearchBar from "./components/SearchBar";
 
 function App() {
 	return (
 		<div className="App">
-			<ControlledForms />
+			<SearchBar />
 		</div>
 	);
 }
